@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>Temperature Dashboard</header>
+    <section>
+
+        <h1>Convert A Temperature</h1>
+        <div>
+            <button onclick="Ctof()">Celcius: </button>
+            <button onclick="ftoc()">Fahrenheit</button>
+        </div>
+        <p id="temp"></p>
+        <p id="thermo"></p>
+    </section>
+    <section>
+        <h1>Conversion Table (0 to 100 celcius)</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Celsius</td>
+
+                    <td>Farenheit</td>
+                </tr>
+            </thead>
+            <tbody id="temps">
+                <button onclick="generatetable()">table</button>
+            
+            </tbody>
+        </table>
+    </section>
+    <script src="./finals.js"></script>
+</body>
+</html>
